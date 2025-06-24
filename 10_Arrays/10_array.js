@@ -33,4 +33,9 @@ console.log(animals);
 // *** to remove an item form the start of an array
 animals.shift()
 console.log(animals);
-// *** 
+// *** to add an arbitary element -> permanent updation
+const months = ['jan' , 'mar' , 'apr' , 'june' , 'jul' , 'aug' , 'sept' , 'oct','nov' , 'dec']
+months.splice(1,0,'feb') //.splice(start , deleteCount , item) // here delete count is 0 so adding
+console.log(months);
+// we can also use : splice(start , deleteCount)
+
